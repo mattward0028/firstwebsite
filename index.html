@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Hello World!</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+    <nav class="navbar navbar-inverse navbar-fixed-top " role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <!--The bootstrap class sr-only is for hidden information targeted at screen readers, to allow for accessibility for people with vision problems-->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="projectName navbar-brand">
+                    <a href="#">Matt Ward</a>
+                </div>
+                <!--End of project-->
+            </div>
+            <!--End of navbar header -->
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">Home</a></li>
+                    <!--dropdown menu in the WORK tab-->
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Work<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#most-recent-work">Most Recent</a></li>
+                            <li><a href="#other-work">Other Work</a></li>
+                        </ul>
+                    </li>
+                    <!--End of dropdown menu in the WORK tab-->
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#faq">Faq</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <!--End of navbar right-->
+            </div>
+            <!--End of navbar collapse-->
+        </div>
+        <!--End of div container fluid-->
+    </nav>
+    <!-- end navbar navbar-inverse navabar-fixed-top -->
+    <div class="container-fluid" id="home">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="img/hero1.jpg" alt="...">
+                    <div class="carousel-caption1">
+                        <h2>Matt Ward</h2>
+                        <h2>Web Developer</h2>
+                    </div>
+                    <!-- end caption -->
+                </div>
+                <!-- end item active -->
+                <div class="item">
+                    <img src="img/hero2.jpg" alt="...">
+                    <div class="carousel-caption2">
+                        <h2>Progress</h2>
+                        <h2>Every day I'm coding more!</h2>
+                    </div>
+                    <!-- end caption -->
+                </div>
+                <!-- end item -->
+                <div class="item">
+                    <img src="img/hero3.jpg" alt="...">
+                    <div class="carousel-caption3">
+                        <h2>Destination</h2>
+                        <h2>To land my dream job.</h2>
+
+                    </div>
+                    <!-- end caption -->
+                </div>
+                <!-- end item -->
+            </div>
+            <!-- end carousel-inner -->
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- end carousel-example-generic-->
+        <div class="container" id="goals">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-md-4" id="portfolio-concept">
+                    <h2>Portfolio Concept</h2>
+                    <p>It will be a <a href "#" id="tooltip1" data-original-title="This portfolio is a work in progress!">portfolio</a> of my projects. Which are projects that showcase my skill in a variety of coding languages, Also quality and cleanliness of my code.</p>
+                    <p>
+                        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="" data-original-title="Further details on this can be found here"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> View details »</button>
+                    </p>
+                </div>
+                <!-- /col -->
+                <div class="col-md-4" id="project-goals">
+                    <h2>Project Goals</h2>
+                    <p>My deadline for this course is the before the end of 2016. To obtain this I have scheduled out 25 hours a week for this program. And I will be held accountable not only by myself but by my wife and family.</p>
+                    <p>
+                        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="" data-original-title="Further details on this can be found here"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> View details »</button>
+                    </p>
+                </div>
+                <!-- /col -->
+                <div class="col-md-4" id="course-goals">
+                    <h2>Course Goals</h2>
+                    <p>I would like to switch careers and land a job as an entry level developer.</p>
+                    <p>
+                        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="" data-original-title="Further details on this can be found here"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> View details »</button>
+                    </p>
+                </div>
+                <!-- /col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container goals -->
+
+    </div>
+
+    <!-- end container-fluid home -->
+
+    <div class="container anchor work" id="most-recent-work">
+        <div class="most-recent-title">
+            <h3>Most Recent Work</h3>
+        </div>
+
+        <div class=”row”>
+
+        </div>
+    </div>
+    <!-- end container -->
+
+    <div class="container anchor work" id="other-work">
+        <div class="other-work-title">
+            <h1>Other Work</h1>
+        </div>
+
+        <div class="row">
+
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+
+    <div class="container-fluid anchor" id="about" data-stellar-background-ratio="0.5">
+        <div class="container" id="about-header">
+            <div class="header">
+                <h1>About Me</h1>
+            </div>
+            <!-- end header -->
+        </div>
+        <!-- end about-header -->
+
+        <div class="container" id="about-text">
+            <div class="row" id="intro">
+                <div class="col-md-6 col-xs-12">
+                    <div class="intro-column">
+                        <img src="img/aboutmepic.jpg">
+                    </div>
+                    <!-- end intro -->
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <div class="skills-column">
+                        <h3>My Skills</h3>
+                        <ul id="skill-list">
+                            <li>Html</li>
+                            <li>Css</li>
+                            <li>JQuery</li>
+                            <li>JavaScript</li>
+                            <li>Ruby</li>
+                            <li>Rails</li>
+                        </ul>
+                    </div>
+                    <!-- skills column -->
+                </div>
+                <div class="col-md-12 col-xs-12" id="story'">
+                    <div class="main-text">
+                        <h3>My story</h3>
+                        <p>I love to learn, especially about random things. I love anything old. Old photos, old cars, old buildings. I like the thought of all that has been experienced by old things. I also like exploring, making new memories in new places. I enjoy spending time with my wife and daughter and I love watching my daughter grow, learn and experience new things. I love to play volleyball and tennis. I also like to geocache and hike. I love to travel one of my favorite places ever is Maui, Hawaii. I have lived most of my life in las vegas but did live in Concepcion, Chile for a few years. Which opened my eyes to many things and I had amazing experiences. I was there for one of the largest recorded earthquakes of modern history in Febuary of 2010.</p>
+                    </div>
+                    <!-- end main text -->
+                </div>
+            </div>
+        </div>
+        <!-- end row about -->
+    </div>
+    <!-- end container-fluid about section-->
+
+    <div class="container-fluid anchor" id="faq">
+        <div class="row" id="Learn-more-header">
+            <div class="header">
+                <h2 class="learn-more">Learn More</h2>
+            </div>
+            <div class="modal-button">
+                <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Resume</button>
+            </div>
+            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Resume</h4>
+                        </div>
+                        <div class="modal-body">
+                            <embed>
+                            <embed id="modalembed" src="mockresume.pdf">
+                            </embed>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- end header -->
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Why did I become a Web Developer?
+                </a>
+              </h4>
+                </div>
+                <!-- end panel-heading -->
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        I thoroughly enjoy learning how things work, also how to fix things that are broken. For a long time I was interested in becoming a mechanical engineer. I got introduced into the hardware side of technology through a work opportunity. Over time I realized that programming would fit right into what I enjoy doing. It fascinates me to have the chance to not only fix things, but to create something. And that is where the desire to become a Web Developer originated.
+                    </div>
+                    <!-- end panel-body -->
+                </div>
+                <!-- end callapseOne -->
+            </div>
+            <!-- end panel panel-default -->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What is your average project turnaround?
+                </a>
+              </h4>
+                </div>
+                <!-- end panel-heading -->
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                        As of now I am still learning. But my average completion time for my assignments is two hours.
+                    </div>
+                    <!-- end panel-body -->
+                </div>
+                <!-- end callapseTwo -->
+            </div>
+            <!-- end panel panel-default -->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Who are your clients?
+                </a>
+              </h4>
+                </div>
+                <!-- end panel-heading -->
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                        Anyone looking for a freelance web developer. That is until I'm able to secure a job as a developer.
+                    </div>
+                    <!-- end panel body -->
+                </div>
+                <!-- end collapseThree -->
+            </div>
+            <!-- end panel panel-default -->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFour">
+                    <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                What is your design process?
+                </a>
+              </h4>
+                </div>
+                <!-- end panel-heading -->
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                    <div class="panel-body">
+                        This is a work in progress. Everyday I'm learning new techniques.
+                    </div>
+                    <!-- end panel-body -->
+                </div>
+                <!-- end collapseFour -->
+            </div>
+            <!-- end panel panel-default -->
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFive">
+                    <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                You live in Vegas, does that mean you live in a casino?
+                </a>
+              </h4>
+                </div>
+                <!-- end panel-heading -->
+                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                    <div class="panel-body">
+                        I have heard this one my whole life! Especially when living outside of the USA. Even though many of the casinos have really nice rooms, I live in a normal north american home. There is a normal city that surrounds the famous strip. It is nice though because many things are open 24 hours a day.
+                    </div>
+                    <!-- end panel-body -->
+                </div>
+                <!-- end collapseFive -->
+            </div>
+            <!-- end panel panel-default -->
+        </div>
+        <!-- end accordion -->
+
+    </div>
+    <!-- end container-fluid FAQ section-->
+
+    <div class="container-fluid anchor" id="contact" data-stellar-background-ratio="0.5">
+        <div class="row" id="contact-content">
+            <div class="col-md-4">
+                <div class="contact-title">
+                    <h1>Contact Info</h1>
+                </div>
+                <div class="row" id="contact-invite">
+                    <div class="col-md-12 col-xs-12">
+                        <p>You can reach me through any of the following.</p>
+                        <p>Don't worry I dont mind getting messages at any hour.</p>
+                        <p>Give me a few hours, I'll respond.</p>
+                    </div>
+                </div>
+                <!-- end contact invite -->
+                <div class="row" id="contact-links">
+                    <div class="col-md-12 col-xs-12">
+                        <div class="contact-icons">
+                            <a href="https://www.facebook.com/profile.php?id=742197994">
+                                <img src="http://d33wubrfki0l68.cloudfront.net/c2a54a670ffd4366c9f0f46599573de16d44cf1f/e5665/img/pluginfacebook.png">
+                            </a>
+                            <a href="skype:mattward28">
+                                <img src="http://d33wubrfki0l68.cloudfront.net/b9a887cc470b764247dc1493e91e4b471f5b22f7/bc8cb/img/skypeplugin.png">
+                            </a>
+                            <a href="mailto:mattward0028@gmail.com">
+                                <img src="http://d33wubrfki0l68.cloudfront.net/1e0ed2211ab1675ffa1fcd100a2f3baa264220c7/0613a/img/googleplugin.png">
+                            </a>
+                        </div>
+                        <!-- end contact icons -->
+                    </div>
+                </div>
+                <!-- end contact-links -->
+                <div id="map">
+                    <!--<iframe width="100%" height="350" frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJp28VtiGTyIAR6J7bqvSiOmk&key=AIzaSyDRk4pUKBHtn0vcUuBj2jqbtIyf03MVjsA" allowfullscreen></iframe>
+              -->
+                </div>
+            </div>
+
+            <div class="col-md-8" id="form-group-content">
+                <h2>Say Hello</h2>
+                <form name="myForm" onsubmit="return(validate());">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                <label for="name">* Your Name</label>
+                                <input class="form-control" placeholder="Enter name" type="text" id="name" name="name" required="required">
+                                <p id="visible-name"></p>
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <label for="phone">Your Phone</label>
+                                <input class="form-control" placeholder="Enter your phone" type="tel" name="phone" id="phone">
+                                <p id="visible-phone"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">* Your Email</label>
+                        <input class="form-control" placeholder="Enter email" type="email" id="email" name="email" required="required">
+                        <p id="visible-email"></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">* Your Message</label>
+                        <textarea placeholder="Your message here" class="message-box form-control" cols="40" rows="5" min-length="20" style="resize:none" id="message" name="message" minlength="20" required="required"></textarea>
+                        <p id="visible-comment"></p>
+                        <p id="char-count"></p>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" id="button" class="btn btn-default">Submit</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- end container-fluid contact section-->
+
+    <footer>
+        <div class="row" id="footer-tags">
+            <div class="twitter col-md-12 col-xs-12">
+                <a href="https://twitter.com/GUAC0028" class="twitter-follow-button" data-show-count="false">Follow @GUAC0028</a>
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="fb col-md-12 col-xs-12">
+                <iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D742197994&width=130&height=35&layout=standard&size=small&show_faces=false&appId" width="200" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>
+            <div class="copyright col-md-12 col-xs-12">
+                <p> &copyMattWard2016 </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================= -->
+    <!-- All your JavaScript comes now -->
+
+    <!-- ============================= -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrap core JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Can place script tags with JavaScript files here -->
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/work.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <script type="text/javascript">
+        function validate() {
+
+            if (document.myForm.message.value == "") {
+                alert("Message must not be blank");
+                document.myForm.message.focus();
+                return false;
+            }
+
+            return (true);
+        }
+    </script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlxBTQgooVRGEVdeEejA7K_EMKBAdEyA8&callback=initMap" async defer>
+    </script>
+    </script>
+</body>
+
+</html>

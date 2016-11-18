@@ -1,0 +1,285 @@
+/* index.html */
+
+* {
+	box-sizing: border-box;
+}
+
+.anchor {
+	padding-top: 61px;
+}
+
+body {
+  background-image: url("../img/polaroid.png");
+	position: relative;
+}
+
+/* navbar */
+
+.navbar li {
+	display: inline-block;
+}
+
+.navbar a {
+	color: #fbefef;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	padding: 20px 10px 20px;
+	text-decoration: none;
+	-webkit-transition: color 600ms;
+}
+
+.navbar a:hover {
+	color: #ff0;
+	text-decoration: none;
+}
+
+.projectName a {
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	-webkit-transition:color 600ms;
+	font-family: 'Permanent Marker', cursive;
+}
+
+/* home */
+
+.carousel {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+#carousel-example-generic {
+	padding-top: 51px;
+}
+
+
+.carousel-caption1 {
+	top: 10%;
+	right: 10%;
+	position: absolute;
+	font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;
+	color:  #fbefef;
+}
+
+.carousel-caption2 {
+	bottom: 15%;
+	left: 10%;
+	position: absolute;
+	font-size:;
+	font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;
+	color:  #fbefef;
+}
+
+.carousel-caption3 {
+	bottom: 15%;
+	right: 10%;
+	position: absolute;
+	font-size:;
+	font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;
+	color:  #fbefef;
+}
+
+
+.btn-default {
+	font-family: 'Permanent Marker', cursive;
+}
+
+/* work */
+
+#work {
+	min-height: 700px;
+}
+
+.work-title h1 {
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 50px;
+}
+
+.other-work-title h1 {
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.most-recent-title {
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.most-recent-work-image h3 {
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.work-description p {
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.work-img {
+  display: block;
+  margin: auto;
+  max-width: 200px;
+  position: relative;
+}
+.info {
+  position: absolute;
+  top: 15%;
+}
+
+.info {
+  position: absolute;
+  top: 15%;
+  left: 22%;
+  color:#fff;
+  font-family:Futura;
+  text-transform:uppercase;
+  font-weight:700;
+  letter-spacing:0.5em;
+  line-height:1.6;
+	display: none;
+}
+.proj-title {
+  font-weight:100;
+}
+
+
+/* about.html*/
+#about{
+  min-height: 700px;
+}
+
+#about-header{
+  padding-top: 10%;
+}
+
+
+.skills {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.skills-column h3 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.header h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.intro-column h2 {
+	font-family: 'Permanent Marker', cursive;
+	text-align:center;
+}
+
+.intro-column p {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	text-align: center;
+}
+
+.main-text h3 {
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+
+.main-text p {
+	font-family: Georgia, Times, "Times New Roman", serif;
+
+}
+
+#skill-list {
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+/* contact page*/
+
+#contact {
+	background-image: url("../img/contactpic.jpg");
+	background-attachment: fixed;
+	background-size:100% 100%;
+	min-height: 900px;
+	background-position: center !important;
+}
+
+.contact-title h1 {
+	text-align: center;
+	color: #fbefef;
+	font-family: 'Permanent Marker', cursive;
+	padding-top: 10%;
+	font-size: 50px;
+}
+
+#contact-invite {
+	color: #fbefef;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	text-align: center;
+}
+
+#contact-links {
+	text-align: center;
+	padding-bottom: 10%;
+}
+
+#form-group-content h2 {
+	color: #fbefef;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+
+.form-group: required {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.form-group label {
+	color: #fbefef;
+}
+
+#map {
+  height: 300px;
+  width: 100%;
+}
+
+/* faq.html*/
+
+#faq {
+	min-height: 700px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#accordion {
+	background-color: ;
+}
+
+.learn-more {
+	text-align: left;
+	float: left;
+	font-family: 'Permanent Marker', cursive;
+	color: #f41c1c;
+}
+
+.modal-button {
+	float: right;
+	padding: 15px;
+}
+
+#modalembed {
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+}
+
+.panel-title {
+	font-family: 'Permanent Marker', cursive;
+}
+
+/* footer */
+
+#footer-tags {
+	text-align: center;
+}
